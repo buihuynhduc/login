@@ -1,0 +1,144 @@
+body{
+    font-family: monospace;
+    background: #e4e4e4;
+}
+.fLogin{
+
+    padding: 45px 15px;
+    color: #717171;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+.fLogin h3{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #717171;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.fLogin label{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.introduce{
+    width: 200px;
+    background: #1b548c;
+    color: white;
+    padding: 26px 21px;
+    border-top-left-radius: 10px;    
+    border-bottom-left-radius: 10px;   
+
+    
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    left: -50px;
+    margin-right: 40px;
+
+}
+.logo{
+    width: 50px;
+    height: 48px;
+    margin-top: -10px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo1{
+    width: 150px;
+    height: 150px;
+    margin-top: -10px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introduce p{
+    font-size: 13px;
+    color: #e8e8e8;
+    margin-bottom: 20px;
+}
+.login{
+    background: #1b548c;
+    color: white;
+    letter-spacing: 1px;
+}
+.box-login{
+    top: 50px;
+   
+    height:305px;left: 200px;
+}
+input{
+    margin-bottom: 15px;
+}
+.login{
+    margin-bottom: 0;
+}
+.logo image{
+    height: 150px !important;
+}
+.icon{
+    margin-top: 10px;
+}
+.more{
+    background: #1b548c;
+}
+.footer-border{
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+}
+.footer{
+
+    margin-left: 40%;
+}
+.bl-moodle{
+    margin-left: 40px;
+}
+.moodle{
+    width: 90px;
+    height: 24px;
+    margin-left: 30px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.t-logo{
+    width: 20px;
+    height: 20px;
+}
+#resetPw{
+    font-size: 11px;
+}
+.bl-moodle a{
+    display: block;
+}
+/*@media screen and (max-width: 691px) {
+
+    .footer{
+        margin-left: 30%;
+    }
+    .introduce{
+        left: 70px !important;
+    }
+    .box-login{
+        left: 70px !important;
+        width: 50%;
+    }
+
+}*/
+
+@media only screen and (max-width: 1017px) {
+
+    .footer{
+        margin-left: 30%;
+    }
+    .introduce{
+        left: 30% !important;
+    }
+    .box-login{
+        left: 40% !important;
+        width: 50%;
+    }
+
+}
